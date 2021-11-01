@@ -13,6 +13,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.basics_codelab.ui.theme.Basics_CodelabTheme
 import androidx.compose.foundation.lazy.items
+import androidx.compose.runtime.saveable.rememberSaveable
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -100,7 +101,7 @@ fun Greetings(names: List<String> = List(1000) { "$it" }) {
 
 @Composable
 fun MyApp() {
-    var shouldShowOnBoarding: Boolean by remember { mutableStateOf(true) }
+    var shouldShowOnBoarding: Boolean by rememberSaveable { mutableStateOf(true) }
 
     if (shouldShowOnBoarding) {
         OnBoardingScreen {
