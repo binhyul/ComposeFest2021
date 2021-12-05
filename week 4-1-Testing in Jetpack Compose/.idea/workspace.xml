@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb45202c-1184-4436-bd4a-2221207eab8f" name="Default Changelist" comment="4-1 init">
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/compose/rally/TopAppBarTest.kt" afterDir="false" />
+    <list default="true" id="eb45202c-1184-4436-bd4a-2221207eab8f" name="Default Changelist" comment="simple ui test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/compose/rally/TopAppBarTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/compose/rally/TopAppBarTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638693958358</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="simple ui test">
+      <created>1638694270288</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1638694270288</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +197,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="4-1 init" />
-    <option name="LAST_COMMIT_MESSAGE" value="4-1 init" />
+    <MESSAGE value="simple ui test" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple ui test" />
   </component>
 </project>
