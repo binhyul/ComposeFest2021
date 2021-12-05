@@ -184,6 +184,7 @@ private fun PostMetadata(
     CompositionLocalProvider(LocalContentAlpha provides ContentAlpha.medium) {
         Text(
             text = text,
+            style = MaterialTheme.typography.body2,
             modifier = modifier
         )
     }
