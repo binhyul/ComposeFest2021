@@ -218,7 +218,7 @@ private fun PostItemPreview() {
 @Composable
 private fun FeaturedPostPreview() {
     val post = remember { PostRepo.getFeaturedPost() }
-    JetnewsTheme { FeaturedPost(post = post) }
+    JetnewsTheme(darkTheme = true) { FeaturedPost(post = post) }
 }
 
 @Preview("Home")
